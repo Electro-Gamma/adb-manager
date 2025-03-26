@@ -1,2 +1,2 @@
 pillow==9.5.0       # Image processing for icons
-tkinter==0.1.0      # GUI framework (usually included with Python
+tkinter==0.1.0      # GUI framework (usually included with Python)
