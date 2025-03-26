@@ -212,11 +212,16 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙌 **Acknowledgments**
-- **[ADB](https://developer.android.com/studio/command-line/adb)** – Android Debug Bridge.  
-- **[Scrcpy](https://github.com/Genymobile/scrcpy)** – Screen mirroring.  
-- **[Pillow](https://python-pillow.org/)** – Image processing.  
-- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** – GUI framework.  
+## 🙌 **Acknowledgments**  
+A huge thank you to the following tools and libraries that made this project possible:  
+
+- **[ADB (Android Debug Bridge)](https://developer.android.com/studio/command-line/adb)** – A versatile command-line tool for communicating with Android devices, allowing debugging, file transfers, app installations, and shell access.  
+- **[ADB-Toolkit](https://github.com/ASHWIN990/ADB-Toolkit)** – A powerful toolkit that simplifies ADB commands for managing Android devices, uninstalling bloatware, and debugging applications.  
+- **[adbappcontrol](https://adbappcontrol.com/en/)** – A Windows GUI tool for managing Android apps via ADB, allowing app uninstallation, disabling system apps, and more.  
+- **[Scrcpy](https://github.com/Genymobile/scrcpy)** – A lightweight and high-performance tool for screen mirroring and controlling Android devices via USB or Wi-Fi, with low latency and no root required.  
+- **[Pillow](https://pypi.org/project/pillow/)** – A powerful image-processing library for Python, enabling image manipulation, conversion, and drawing operations.  
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** – A built-in Python library for creating graphical user interfaces (GUIs), providing a simple way to build desktop applications.  
+
 
 ---
 
