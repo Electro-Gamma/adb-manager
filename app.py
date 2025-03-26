@@ -4,7 +4,7 @@ from tkinter import ttk
 from adb_manager import FileManagerPage, APKManagerPage, NetworkManagerPage, ToolsPage, TerminalPage
 from PIL import Image, ImageTk  # For loading PNG icons
 import os
-
+  x
 class ADBApp(tk.Tk):
     def __init__(self):
         super().__init__()
