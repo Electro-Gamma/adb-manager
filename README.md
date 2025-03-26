@@ -166,45 +166,6 @@ python app.py
 
 ---
 
-## 🚑 **Troubleshooting & Common Issues**
-
-### ❓ **Device Not Detected**
-**Solution:**
-- Ensure **USB Debugging** is enabled.
-- Run:
-  ```bash
-  adb devices
-  ```
-  If no device appears, try:
-  ```bash
-  adb kill-server
-  adb start-server
-  ```
-- Try a **different USB cable/port**.
-
-### ❓ **Permission Denied Errors**
-**Solution:**
-- If prompted on your device, **allow USB Debugging**.
-- Try:
-  ```bash
-  adb shell
-  ```
-
-### ❓ **ADB Over WiFi Not Connecting**
-**Solution:**
-1. Ensure the device and PC are **on the same WiFi network**.
-2. Restart **ADB over TCP/IP**:
-   ```bash
-   adb tcpip 5555
-   adb connect <device-ip>:5555
-   ```
-
-### ❓ **Icons Not Displaying Correctly**
-**Solution:**
-- Ensure **PNG files exist** in `icons/` directory.
-- Check **`icon_mappings.json`** for correct mappings.
-
----
 
 ## 📜 **License**
 This project is licensed under the **MIT License**.  
@@ -221,20 +182,6 @@ A huge thank you to the following tools and libraries that made this project pos
 - **[Scrcpy](https://github.com/Genymobile/scrcpy)** – A lightweight and high-performance tool for screen mirroring and controlling Android devices via USB or Wi-Fi, with low latency and no root required.  
 - **[Pillow](https://pypi.org/project/pillow/)** – A powerful image-processing library for Python, enabling image manipulation, conversion, and drawing operations.  
 - **[Tkinter](https://docs.python.org/3/library/tkinter.html)** – A built-in Python library for creating graphical user interfaces (GUIs), providing a simple way to build desktop applications.  
-
-
----
-
-## 📧 **Contact & Support**
-For questions or feedback, feel free to reach out:
-
-📧 **Email**: your.email@example.com  
-🐙 **GitHub**: [Electro-Gamma](https://github.com/Electro-Gamma)
-
----
-
-## 📷 **Screenshots Folder**
-All **UI screenshots** should be placed inside the `images/` folder.
 
 ---
 
