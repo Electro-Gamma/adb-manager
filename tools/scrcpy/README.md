@@ -1,6 +1,6 @@
 # scrcpy-windows-exec
 
-This repository provides an easy way to use [`scrcpy`](https://github.com/Genymobile/scrcpy) on **Windows** without needing to install or build it from source.
+This repository provides an easy way to use [`scrcpy`](https://github.com/Genymobile/scrcpy/releases) on **Windows** without needing to install or build it from source.
 
 If you're on **Windows**, you can use the precompiled executable available from the official releases.
 
@@ -18,21 +18,23 @@ If you're on **Windows**, you can use the precompiled executable available from 
 
 ## 🖥️ Usage on Windows
 
+### Option 1: Download and Use
+
 1. **Download the latest release** of scrcpy from the official page:  
    👉 [https://github.com/Genymobile/scrcpy/releases](https://github.com/Genymobile/scrcpy/releases)
 
-2. **Extract the ZIP file** to a folder of your choice.
+2. **Extract the ZIP file**.
 
-3. **Connect your Android device via USB** and enable **USB debugging** in developer options.
+3. **Copy the following files** from the extracted folder into this project directory (next to this `README.md`):
+   - `scrcpy.exe`
+   - `adb.exe`
+   - `AdbWinApi.dll`
+   - `AdbWinUsbApi.dll`
 
-4. **Run the included executable**:
-    - Double-click on `scrcpy.exe`
-    - Or launch it from the command line:
-      ```bash
-      scrcpy.exe
-      ```
+   > These are needed for `scrcpy` to run correctly on Windows.
 
-   > If prompted by Windows SmartScreen, click "More info" → "Run anyway".
+4. **Connect your Android device via USB** and enable **USB debugging**.
+
 
 ## 🔧 Requirements
 
